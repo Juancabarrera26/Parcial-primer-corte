@@ -1,11 +1,6 @@
-# Ejercicio 2: Validación de ID
+# Ejercicio 2: Validar el ID
 
 def validar_id(id):
-    """
-    Esta funcion es valida si un ID cumple con las siguientes condiciones:
-    - Debe ser un entero positivo.
-    - Debe tener entre 5 y 10 digitos.
-    """
     if not isinstance(id, int) or id < 0:
         return False
     id_str = str(id)
@@ -16,4 +11,4 @@ def validar_id(id):
 # Ejemplo de uso
 if __name__ == '__main__':
     id_test = 12345
-    print(f'ID {id_test} válido: {validar_id(id_test)}')
+    print(f'ID {id_test} valido: {validar_id(id_test)}')
