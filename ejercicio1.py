@@ -10,6 +10,6 @@ texto = "Este es un Texto de Ejemplo. Aqui hay algunas Palabras que comienzan co
 
 coincidencias = re.findall(patron, texto)
 
-print('Palabras que comienzan con mayúscula:')
+print('Palabras que comienzan con mayuscula:')
 for palabra in coincidencias:
     print(palabra)
