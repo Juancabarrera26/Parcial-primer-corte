@@ -2,9 +2,9 @@
 
 def validar_id(id):
     """
-    Esta función valida si un ID cumple con las siguientes condiciones:
+    Esta funcion es valida si un ID cumple con las siguientes condiciones:
     - Debe ser un entero positivo.
-    - Debe tener entre 5 y 10 dígitos.
+    - Debe tener entre 5 y 10 digitos.
     """
     if not isinstance(id, int) or id < 0:
         return False
